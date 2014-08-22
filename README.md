@@ -26,3 +26,6 @@ the course project for https://class.coursera.org/getdata-006.
   * a previously produced tidy dataset from run_analysis.R
 * tidy_dataset2.txt
   * a tidy dataset that aggregates the measures in tidy_dataset.txt
+* DATA_DICTIONARY.md
+  * markdown file describing the tidy datasets above, and the 
+  values contained within.
