@@ -11,12 +11,15 @@ Each dataset is saved to disk:
 *Note: more information on the source data can be found in the
 source dataset's README.md*
 ### Columns
+
   subjectID
-    *Numeric*
+  
+    Numeric
     Denotes the person wearing the devices being measured
   
   activityName
-    *Character*
+  
+    Character
     Denotes the friendly name of the activity taking place
     while the observation was made.
   
