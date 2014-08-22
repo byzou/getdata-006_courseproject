@@ -81,5 +81,10 @@ write.table(col_split, file = "tidy_dataset.txt", quote=FALSE,
 df_melt <- melt(col_split, id=colnames(col_split[1:2]))
 df_cast <- dcast(df_melt, subjectID+activityName ~ variable, mean)
 colnames(df_cast)[3:length(df_cast)] <- paste( colnames(df_cast)[ 3:length(df_cast) ], ".aggMean", sep="" )
+
+# write it to disk
+write.table(df_cast, file = "tidy_dataset2.txt", quote=FALSE, 
+		row.names = FALSE, sep="\t")
+
 df_cast
 }
